@@ -19,7 +19,7 @@ export default function ApiQueueDemo() {
     const job = queue[0];
 
     try {
-      const response = await axios.post("http://localhost:4000/api/v1/echo", {
+      const response = await axios.post("https://dodo-payments-assignment.onrender.com/api/v1/echo", {
         message: "hi",
       });
 
